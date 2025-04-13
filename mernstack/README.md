@@ -1,12 +1,12 @@
-# React + Vite
+# UseReducer Hook
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Dispatch Function 
+Sends an action to reducer function
 
-Currently, two official plugins are available:
+## Reducer Function 
+Takes initial state and action as parameter and returns new state
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot 2025-04-13 095213](https://github.com/user-attachments/assets/924f320e-cb9d-4a30-b7f3-220d3d62b948)
 
-## Expanding the ESLint configuration
+![Screenshot 2025-04-13 105815](https://github.com/user-attachments/assets/c266627e-f423-4f31-8e17-67b5537174ee)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
