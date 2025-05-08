@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start":"node index.js",
+    "chacha":"echo \"Error : no test specified\" && exit 1 "
+  },
+  "dependencies": {
+    "accessibility": "^5.1.4",
+    "one-liner-joke": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
