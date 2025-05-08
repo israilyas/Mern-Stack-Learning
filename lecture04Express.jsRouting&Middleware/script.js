@@ -17,7 +17,15 @@ const app = express()
 // Request Handler is also a middleware
 
 // Middleware
-// app.use()
+app.use((req,res,next)=>{
+    console.log("Middleware challa")
+    next()
+
+})
+app.use((req,res,next)=>{
+    console.log("Middleware dubara challa")
+
+})
 
 app.get('/',(req,res)=>{
     res.send("Champion mera ANuj")
