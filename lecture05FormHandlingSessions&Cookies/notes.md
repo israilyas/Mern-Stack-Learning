@@ -13,3 +13,11 @@
 ## Session
 login krne sey logout krney tak aik session hota hae
 
+
+#### Blob
+It is stream ==> data in unreadable formate ==>
+sab kuch ==> browser ki information
+
+humney bheja tha plain text but server ko mila blob which is not direct readable . ab isko handle krna padegaa k hum us blob ko direct readable kr sakein 
+
+- blob is not correct way to explain => we say blob when data is in binary form
